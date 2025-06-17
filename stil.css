@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+	font-family: "AmadeaMuza";
+	src:url("Dokumenti/Amadea_Muza_projektni_zadatak1.ttf"); }
+p {
+	color: hotpink;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: mediumpurple;
+	padding: 20px;
+}
+.paragraf_2 {color: mediumpurple; background-color: rgba(255, 255, 255, 0.5)}
+.novi_blok {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	margin: 20px;
+	width: 50%;
+}
+h1 {
+	font-family: AmadeaMuza;
+	color: hotpink;
+}
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: deeppink;
+}
+nav {
+	ul {
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 400px;
+			}
+	li {	display:inline;
+			background-color:mediumpurple;
+			padding:20px;
+			border: 2px solid #E9569F;
+		}
+	li:active {background-color:mediumpurple;}
+	
+	li a {	color:deeppink; 
+			font-family: "CabinSketch", sans-serif; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+}
+
+span {color: rgb(255, 0, 255);}
+.pozadina{
+	background-image: url("slike/pozadina.jpg");
+}
+.drugapozadina {
+	background-color: darkgray;
+}
+a:link {
+	color: black;
+	background-color: white;
+	padding: 5px;
+	line-height: 40px;
+	border: 1px solid #000000;
+}
+a:hover{
+	background-color: darkgray;
+}
+img {
+	height: 100px,
+}
